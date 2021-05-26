@@ -11,6 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     perspective: 1000px;
+    background-image: url(background.jpg);
 }
 
 .container {
@@ -61,7 +62,7 @@ body {
 .info h3 {
     font-size: 1.3rem;
     padding: 2rem 0;
-    color: #585858;
+    color: #457b9d;
     font-weight: lighter;
     transition: all .75s ease-out;
 }
@@ -80,11 +81,11 @@ body {
     border-radius: 30px;
     cursor: pointer;
     font-weight: bold;
-    color: #585858;
+    color: #457b9d;
 }
 
 button.active {
-    background: #585858;
+    background: #457b9d;
     color: white;
 }
 
